@@ -1,0 +1,106 @@
+*{
+margin:0px;
+padding:0px;
+}
+img{border:0px}
+
+body{
+width:1000px;
+margin:0 auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+
+#header{
+padding:0 0 0 32px;
+height:355px;
+width:892px;
+}
+
+.logo{
+float:left;
+}
+
+#menu{
+float:left;
+margin:0 0 10px 79px;
+}
+
+#menu li{
+list-style-type:none;
+display:block;
+float:left;
+line-height:40px;
+height:40px;
+padding:0 14px;
+}
+
+#menu a{
+font-size:19px;
+color:green;
+text-decoration:none;
+}
+
+.search{
+width:751px;
+float:left;
+color:#272727;
+padding:0 0 16px 108px;
+overflow:hidden;
+background-image:url(images/search_bg.gif);
+background-position:top left;
+background-repeat:no-repeat;
+}
+
+.search img{
+  float:left
+}
+
+.input{
+height:17px;
+float:left;
+border:2px solid black;
+margin:8px 0 0 7px;
+padding:0 0 0 5px;
+font-size:12px;
+color:#454545;
+}
+
+.button{
+background-image:url(images/button.gif);
+line-height:20px;
+padding:0 0 4px 0;
+width:67px;
+text-align:center;
+display:block;
+float:left;
+margin:7px 0 0 8px;
+font-size:15px;
+color:green;
+text-decoration:none;
+}
+
+button.social
+{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.facebook
+{
+    background: #32508e;
+}
+.twitter
+{
+    background: #55acee;
+}
+.google
+{
+    background: #dd4b39;
+}

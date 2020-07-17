@@ -1,0 +1,37 @@
+form {
+  width: 70%;
+  margin: 10px auto;
+  background-color: #b4f0c1;
+  border: 2px solid #26903d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+form input {
+  display: block;
+  width: 99%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px auto 20px;
+}
+
+form label {
+  font-size: 1.5em;
+  color: #26903d;
+}
+
+form button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: #26903d;
+  background-color: #b4f0c1;
+  border: 2px solid #26903d;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-group {
+  text-align: center;
+}
